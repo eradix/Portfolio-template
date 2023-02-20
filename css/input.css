@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    #hidden:checked + #sidebar{
+        left: -20rem;
+    }
+
+    #sidebar, #main{
+        transition: 1s ease-in-out;
+    }
+    .active{
+      color: #fff;
+      font-weight: bold;
+    }
+  @media (max-width: 768px) {
+    #hidden:checked + #sidebar{
+        left: -100rem;
+    }
+  }
+}

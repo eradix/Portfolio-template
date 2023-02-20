@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html class="scroll-smooth">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+  <link rel='stylesheet' type='text/css' href='/css/output.css' />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+
+<body>
+  <div class="relative ">
+    <label for="hidden" class="text-slate-600 cursor-pointer text-3xl float-right mt-5 mr-5 sticky top-5"
+      onclick="toggleCheck()" style="z-index: 50;"><i class="fa-solid fa-bars"></i></label>
+    <input type="checkbox" id="hidden" class="hidden" />
+    <div id="sidebar"
+      class="w-full md:w-80 bg-slate-900 p-5 text-slate-300 h-screen flex flex-col justify-center col-span-1 fixed top-0 left-0 ">
+      <div class="block">
+        <img src="https://via.placeholder.com/150" alt="" class="rounded-full mb-7 mx-auto" />
+      </div>
+      <ul class="text-center">
+        <li class="list active text-lg mb-4 hover:font-bold ease-in-out duration-300"><a class="links" href="#main">ABOUT</a></li>
+        <li class="list text-lg mb-4 hover:font-bold ease-in-out duration-300"><a class="links" href="#experience">EXPERIENCES</a>
+        </li>
+        <li class="list text-lg mb-4 hover:font-bold ease-in-out duration-300"><a class="links" href="#education">EDUCATION</a></li>
+        <li class="list text-lg mb-4 hover:font-bold ease-in-out duration-300"><a class="links" href="#skills">SKILLS</a></li>
+        <li class="list text-lg mb-4 hover:font-bold ease-in-out duration-300"><a class="links" href="#interest">INTEREST</a></li>
+        <li class="list text-lg mb-4 hover:font-bold ease-in-out duration-300"><a class="links" 
+            href="#certification">CERTIFICATIONS</a>
+        </li>
+      </ul>
+      <div class="text-center mt-10">
+        <span><i class="fa-brands fa-square-facebook" style="font-size: 30px"></i></span>&emsp;
+        <span><i class="fa-brands fa-linkedin" style="font-size: 30px"></i></span>
+        &emsp;
+        <span><i class="fa-brands fa-square-github" style="font-size: 30px"></i></span>
+        &nbsp;
+      </div>
+    </div>
+    <div id="main" class="section bg-slate-300 text-slate-900 px-14 pb-10 ml-0 md:ml-80 w-auto">
+      <div class="about h-screen grid place-content-center">
+        <h1 class="text-5xl mb-5 tracking-wide">JOHN D. NUT</h1>
+        <p class="uppercase mb-3">
+          <i class="fa-solid fa-mobile-screen"></i> 09123456789
+        </p>
+        <p class="text-slate-500 mb-3">
+          <i class="fa-regular fa-envelope"></i> Pedro_penduko@gmail.com
+        </p>
+        <p class="uppercase mb-10">
+          <i class="fa-solid fa-location-dot"></i> Makati City, Philippines
+        </p>
+        <p class="font-bold text-lg mb-3">Career Objective:</p>
+        <p class="text-lg">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sed
+          consequatur modi perspiciatis autem explicabo asperiores? Dolore
+          temporibus doloremque corporis illum alias, fuga provident hic
+          voluptatum, vero at, recusandae libero accusantium quidem inventore
+          harum voluptatibus sed eius assumenda quas quia officia sunt nulla.
+          Possimus error atque odit et neque similique.
+        </p>
+      </div>
+
+      <hr />
+      <!-- EXPERIENCE -->
+      <div class="experience section py-10" id="experience">
+        <h1 class="text-4xl my-8 font-bold tracking-wide">EXPERIENCE</h1>
+        <div class="my-10 flex flex-col md:flex-row">
+          <div class="content basis-3/4 order-2 md:order-1">
+            <h3 class="font-semibold text-3xl uppercase">Web Developer</h3>
+            <h3 class="text-slate-500 text-2xl mb-3 uppercase">
+              Smart Communications
+            </h3>
+            <p class="text-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sed
+              consequatur modi perspiciatis autem explicabo asperiores? Dolore
+              temporibus doloremque corporis illum alias, fuga provident hic
+              voluptatum, vero at, recusandae libero accusantium quidem
+              inventore harum voluptatibus sed eius assumenda quas quia
+              officia sunt nulla. Possimus error atque odit et neque
+              similique.
+            </p>
+          </div>
+          <div class="date basis-1/4 order-1 mb-3 md:order-2 md:mb-0">
+            <p class="text-slate-500">September 2008 - June 2010</p>
+          </div>
+        </div>
+        <div class="my-10 flex flex-col md:flex-row">
+          <div class="content basis-3/4 order-2 md:order-1">
+            <h3 class="font-semibold text-3xl uppercase">
+              Junior Web Developer
+            </h3>
+            <h3 class="text-slate-500 text-xl mb-3 uppercase">
+              Globe Communications
+            </h3>
+            <p class="text-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sed
+              consequatur modi perspiciatis autem explicabo asperiores? Dolore
+              temporibus doloremque corporis illum alias, fuga provident hic
+              voluptatum, vero at, recusandae libero accusantium quidem
+              inventore harum voluptatibus sed eius assumenda quas quia
+              officia sunt nulla. Possimus error atque odit et neque
+              similique.
+            </p>
+          </div>
+          <div class="date basis-1/4 order-1 mb-3 md:order-2 md:mb-0">
+            <p class="text-slate-500">September 2008 - June 2010</p>
+          </div>
+        </div>
+        <div class="my-10 flex flex-col md:flex-row">
+          <div class="content basis-3/4 order-2 md:order-1">
+            <h3 class="font-semibold text-3xl uppercase">System Developer</h3>
+            <h3 class="text-slate-500 text-xl mb-3 uppercase">
+              Dito Communications
+            </h3>
+            <p class="text-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sed
+              consequatur modi perspiciatis autem explicabo asperiores? Dolore
+              temporibus doloremque corporis illum alias, fuga provident hic
+              voluptatum, vero at, recusandae libero accusantium quidem
+              inventore harum voluptatibus sed eius assumenda quas quia
+              officia sunt nulla. Possimus error atque odit et neque
+              similique.
+            </p>
+          </div>
+          <div class="date basis-1/4 order-1 mb-3 md:order-2 md:mb-0">
+            <p class="text-slate-500">September 2008 - June 2010</p>
+          </div>
+        </div>
+        <div class="my-10 flex flex-col md:flex-row">
+          <div class="content basis-3/4 order-2 md:order-1">
+            <h3 class="font-semibold text-3xl uppercase">Php Developer</h3>
+            <h3 class="text-slate-500 text-xl mb-3 uppercase">Chat GPT</h3>
+            <p class="text-lg">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et sed
+              consequatur modi perspiciatis autem explicabo asperiores? Dolore
+              temporibus doloremque corporis illum alias, fuga provident hic
+              voluptatum, vero at, recusandae libero accusantium quidem
+              inventore harum voluptatibus sed eius assumenda quas quia
+              officia sunt nulla. Possimus error atque odit et neque
+              similique.
+            </p>
+          </div>
+          <div class="date basis-1/4 order-1 mb-3 md:order-2 md:mb-0">
+            <p class="text-slate-500">September 2008 - June 2010</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- EDUCATION -->
+      <div class="education py-12 section" id="education">
+        <h1 class="text-4xl my-8 font-bold tracking-wide">EDUCATION</h1>
+        <div class="my-10 flex flex-col md:flex-row">
+          <div class="content basis-3/4 order-2 md:order-1">
+            <h3 class="font-semibold text-3xl uppercase">
+              University of the Moon Vroom vroom
+            </h3>
+            <h3 class="text-slate-500 text-2xl mb-3 uppercase">
+              Bachelor of science in information technology
+            </h3>
+            <p class="text-lg">3542 Berry Street, Cheyenne Wells</p>
+          </div>
+          <div class="date basis-1/4 order-1 mb-3 md:order-2 md:mb-0">
+            <p class="text-slate-500">September 2008 - June 2010</p>
+          </div>
+        </div>
+        <div class="my-10 flex flex-col md:flex-row">
+          <div class="content basis-3/4 order-2 md:order-1">
+            <h3 class="font-semibold text-3xl uppercase">
+              National High school
+            </h3>
+            <h3 class="text-slate-500 text-2xl mb-3 uppercase">
+              Secondary High School
+            </h3>
+            <p class="text-lg">3542 Berry Street, Cheyenne Wells</p>
+          </div>
+          <div class="date basis-1/4 order-1 mb-3 md:order-2 md:mb-0">
+            <p class="text-slate-500">September 2008 - June 2010</p>
+          </div>
+        </div>
+        <div class="my-10 flex flex-col md:flex-row">
+          <div class="content basis-3/4 order-2 md:order-1">
+            <h3 class="font-semibold text-3xl uppercase">
+              Elementary school
+            </h3>
+            <h3 class="text-slate-500 text-2xl mb-3 uppercase">Elementary</h3>
+            <p class="text-lg">3542 Berry Street, Cheyenne Wells</p>
+          </div>
+          <div class="date basis-1/4 order-1 mb-3 md:order-2 md:mb-0">
+            <p class="text-slate-500">September 2008 - June 2010</p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- SKILLS -->
+      <div class="education py-24 md:h-screen section" id="skills">
+        <div class="div">
+          <h1 class="text-4xl my-8 font-bold tracking-wide">SKILLS</h1>
+          <div class="grid grid-cols-1 gap-5 justify-items-start md:justify-items-center md:grid-cols-3">
+            <ul class="py-5 md:py-10 px-14">
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> PHP</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> MySQL</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> JavaScript</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> HTML</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> CSS</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> JQuery</li>
+            </ul>
+            <ul class="py-5 md:py-10 px-14">
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> OOP</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> MVC</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> Laravel</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> React.js</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> Bootstrap</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> Tailwind CSS</li>
+            </ul>
+            <ul class="py-5 md:py-10 px-14">
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> Python</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> Java</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> Git</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> Restful API</li>
+              <li class="text-lg font-semibold mb-2"><i class="fa-solid fa-code"></i> Ajax</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <!-- INTEREST -->
+      <div class="interest py-12 grid place-content-center h-screen section" id="interest">
+        <h1 class="text-4xl my-8 font-bold tracking-wide">INTERESTS</h1>
+        <p class="mb-3 text-lg">
+          Apart from being a web developer, I enjoy most of my time being
+          outdoors. In the winter, I am an avid skier and novice ice climber.
+          During the warmer months here in Colorado, I enjoy mountain biking,
+          free climbing, and kayaking.
+        </p>
+        <p class="mb-3 text-lg">
+          When forced indoors, I follow a number of sci-fi and fantasy genre
+          movies and television shows, I am an aspiring chef, and I spend a
+          large amount of my free time exploring the latest technology
+          advancements in the front-end web development world.
+        </p>
+      </div>
+      <hr />
+      <!-- CERTIFICATES -->
+      <div class="interest py-12 flex items-center h-screen section" id="certification">
+        <div class="div">
+          <h1 class="text-4xl my-8 font-bold tracking-wide">CERTIFICATES</h1>
+          <p class="mb-3 text-lg">
+            <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Aperiam, asperiores?
+          </p>
+          <p class="mb-3 text-lg">
+            <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Aperiam, asperiores?
+          </p>
+          <p class="mb-3 text-lg">
+            <i class="fa-solid fa-check"></i> Lorem ipsum dolor sit amet
+            consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>
